@@ -1,0 +1,35 @@
+# calculator 
+def calculate1():
+    print(a + b)
+def calculate2():
+    print(a - b)
+def calculate3():
+    print(a * b)
+def calculate4():
+    print(a / b)
+print("please answer with '+' or '-' or '*' or '/'")
+while True:
+    x = input('which operator do you want to use')
+    if x == '+':
+        a = float(input('enter your first number'))
+        b = float(input('enter your second number'))
+        calculate1()
+        break
+    elif x == '-':
+        a = float(input('enter your first number'))
+        b = float(input('enter your second number'))
+        calculate2()
+        break
+    elif x == '*':
+        a = float(input('enter your first number'))
+        b = float(input('enter your second number'))
+        calculate3()
+        break
+    elif x == '/':
+        a = float(input('enter your first number'))
+        b = float(input('enter your second number'))
+        calculate4()
+        break
+    else:
+        print('wrong try again !!!')
+        continue
